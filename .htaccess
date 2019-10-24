@@ -1,0 +1,14 @@
+Options +FollowSymLinks -MultiViews
+RewriteEngine On
+
+RewriteRule ^home home.php
+RewriteRule ^logout logout.php
+RewriteRule ^leaderboard leaderboard.php
+RewriteRule ^transactions transactions.php
+RewriteRule ^verify verify.php
+RewriteRule ^affiliate affiliate.php
+RewriteRule ^community community.php
+RewriteRule ^fairness fairness.php
+RewriteRule ^deposit deposit.php
+RewriteRule ^support support.php
+RewriteRule ^lang/([^/]+)$ lang.php?Lang=$1 [L,QSA]
