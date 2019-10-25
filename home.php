@@ -7,10 +7,7 @@
 	$Register="";	
 	if(isset($_REQUEST['Register'])){
 		
-		
-		
-		
-		
+
 		
 	}elseif(isset($_REQUEST['Login'])){
 		$username = ($_POST['username']);
