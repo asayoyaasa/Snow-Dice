@@ -6,9 +6,7 @@
 	$Login="";
 	$Register="";	
 	if(isset($_REQUEST['Register'])){
-		
-
-		
+	#TODO		
 	}elseif(isset($_REQUEST['Login'])){
 		$username = ($_POST['username']);
 		$password = ($_POST['password']);
@@ -33,8 +31,6 @@
 		}else{
 			$Login.= '<div class="alert alert-danger">Please make sure to fill all blanks!</div> ';
 		}
-	
-	
 	}
 ?>
 <!doctype html>
@@ -64,12 +60,7 @@
 	<noscript>If you're seeing this message, that means <strong>JavaScript has been disabled on your browser</strong>, please <strong>enable JS</strong> to make this app work.</noscript>
   </head>
   <body>
-  
-  
-  
-  
-  
-	<div class="container">
+  	<div class="container">
 		<div class="row justify-content-md-center">
 			<div class="white-bg rounded shadow p-4">
 				<div class="row">
@@ -122,12 +113,6 @@
 			</div>
 		</div>
 	</div>
-  
-  
-  
-  
-  
-  
   
 	<!-- BetInfo -->
 	<div class="modal fade" id="BetInfo" tabindex="-1" role="dialog" aria-labelledby="BetInfoTitle" aria-hidden="true">
